@@ -1,24 +1,9 @@
-# README
+# Repo Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps followed for this app
 
-Things you may want to cover:
+* Created CRUD for `User` using below command:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    ```
+    rails g scaffold User first_name:string last_name:string email:string
+    ```
